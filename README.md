@@ -6,7 +6,6 @@
 - Python 3.6
 - Pytorch 1.7
 - Torchvision 0.8
-- segmentation_models_pytorch 0.2.1
 - aicspylibczi 3.0.1
 ----------
 
