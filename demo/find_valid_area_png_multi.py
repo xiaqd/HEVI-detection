@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
 # params setting
 
-    # the czi iamge related mask path
+    # the image related mask path
     input_mask_hev_path = 'hev'
     input_mask_tumor_path = 'tumor'
 
