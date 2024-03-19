@@ -37,7 +37,16 @@ python3 train.py --num_classes 2 \
                  --early_stopping 50
 ```
 #### Note: you might need to change encoder_weight from **histology** to **imagenet**.
+
 ----------
+## Requirements
+- Python 3.6
+- Pytorch 1.7
+- Torchvision 0.8
+- segmentation_models_pytorch 0.2.1
+- aicspylibczi 3.0.1
+----------
+
 ## Segmentation Inference
 
 To infer images, you could refer to **infer_regions.py** in **tools** folder. You may need to modify these part of code in order to run your own data and model. You may need to put segmentation_models_pytorch in the current directory or pip install it to run the code.
