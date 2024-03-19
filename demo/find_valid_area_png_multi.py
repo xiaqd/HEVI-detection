@@ -144,9 +144,9 @@ if __name__ == '__main__':
     hev_conf_thresh = 0.9
     inter_conf_thresh = 0.9
 
-    output_prefix_hev_dir = 'tmp_img_hev/demo'
-    output_prefix_tumor_dir = 'tmp_img_tumor/demo'
-    output_prefix_inter_dir = 'tmp_img_inter/demo'
+    output_prefix_hev_dir = 'demo_results/hev'
+    output_prefix_tumor_dir = 'demo_results/tumor'
+    output_prefix_inter_dir = 'demo_results/inter'
 
     color_list = [[255,128,128],[128,255,128],[0, 255, 220]]
 
