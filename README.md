@@ -1,6 +1,15 @@
 # HEVI Detection
 ### Note: This repository contains part of the code for this paper. 
+
 ----------
+## Requirements
+- Python 3.6
+- Pytorch 1.7
+- Torchvision 0.8
+- segmentation_models_pytorch 0.2.1
+- aicspylibczi 3.0.1
+----------
+
 ## Segmentation Training 
 Prepare the related images and masks first.
 
@@ -38,13 +47,6 @@ python3 train.py --num_classes 2 \
 ```
 #### Note: you might need to change encoder_weight from **histology** to **imagenet**.
 
-----------
-## Requirements
-- Python 3.6
-- Pytorch 1.7
-- Torchvision 0.8
-- segmentation_models_pytorch 0.2.1
-- aicspylibczi 3.0.1
 ----------
 
 ## Segmentation Inference
