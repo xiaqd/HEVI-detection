@@ -134,19 +134,6 @@ inter_conf_thresh = 0.99 # minimum confidence of valid HEVI pixels
 color_list = [[255,128,128],[128,255,128],[0, 255, 220]] # mask color for blend images, only using the last one for HEVI
 ```
 ----------
-## DEMO
-This demo show how to use segmentation predication result to find HEVI area in a patch of a whole slide image. 
-Run the code below to generate a blend image with HEVI area marked.
-
-```
-python3 find_valid_area_png_multi.py
-```
-
-You could find the blend image results in the the folder **demo_results**.
-
-More details settings could be found in the code **find_valid_area_png_multi.py**.
-
-----------
 ## Reference
 We modified a little code from this library: https://github.com/qubvel/segmentation_models.pytorch
 
